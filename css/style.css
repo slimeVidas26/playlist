@@ -47,19 +47,7 @@
   margin-bottom: 0px;
 } 
 
-.addForm {
-  position:relative;
-  height: 20em;
 
-}
-
-.preview{
-  background-image: url('../Docs/girl.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 20em;
-  background-size: cover;
-}
 #modalAdd h4{
   border-bottom: 1px solid black;
   padding-bottom:10px;
@@ -68,10 +56,28 @@
 @media (min-width:320px) {
 
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  
+  
   .modal {
     max-height: 60%;
     margin-top:10%;
     width:95%
+  }
+
+  .addForm {
+    position:relative;
+    height: 20em;
+    margin-bottom:20px;
+
+  
+  }
+  
+  .preview{
+    background-image: url('../Docs/girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    background-size: cover;
   }
   
   .next{
@@ -85,20 +91,33 @@
     width:43%;
     position: absolute;
     bottom:0;
-    right:8%;
+    right:1%;
   
   }
 }
 @media (min-width:480px) {
   /* smartphones, Android phones, landscape iPhone */
   .modal {
-    max-height: 70%;
+    max-height: 80%;
     margin-top:10%;
-    width:95%
+    width:80%
 
   }
   
+  .addForm {
+    position:relative;
+    height: 20em;
+    margin-bottom:20px;
   
+  }
+  
+  .preview{
+    background-image: url('../Docs/girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    background-size: cover;
+  }
   .next{
     width:43%;
     position: absolute;
@@ -110,7 +129,7 @@
     width:43%;
     position: absolute;
     bottom:0;
-    right:8%;
+    right:1%;
   
   }
   
@@ -119,11 +138,26 @@
 @media (min-width:600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 /* ADD PLAYLIST MODAL */
+
  .modal {
   max-height: 90%;
   margin-top:3%;
-  width:60%
+  width:80%;
+  
 
+}
+.addForm {
+  position:relative;
+  height: 15em;
+
+}
+
+.preview{
+  background-image: url('../Docs/girl.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 15em;
+  background-size: cover;
 }
 
 .next{
@@ -138,4 +172,110 @@
   bottom:0;
   right:8%;
 }
+}
+
+@media (min-width:801px) { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .modal {
+    max-height: 90%;
+    margin-top:3%;
+    width:55%
+  
+  }
+  .addForm {
+    position:relative;
+    height: 17em;
+  
+  }
+  
+  .preview{
+    background-image: url('../Docs/girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 17em;
+    background-size: cover;
+  }
+  
+  .next{
+    width:43%;
+    position: absolute;
+    bottom:0;
+  }
+  
+  .reset{
+    width:43%;
+    position: absolute;
+    bottom:0;
+    right:8%;
+  }
+}
+@media (min-width:992px) {
+   /* big landscape tablets, laptops, and desktops */
+   .modal {
+    max-height: 90%;
+    margin-top:3%;
+    width:48%
+  
+  }
+  .addForm {
+    position:relative;
+    height: 18em;
+  
+  }
+  
+  .preview{
+    background-image: url('../Docs/girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 18em;
+    background-size: cover;
+  }
+  
+  .next{
+    width:43%;
+    position: absolute;
+    bottom:0;
+  }
+  
+  .reset{
+    width:43%;
+    position: absolute;
+    bottom:0;
+    right:8%;
+  }
+}
+@media (min-width:1200px) {
+   /* hi-res laptops and desktops */
+   .modal {
+    max-height: 90%;
+    margin-top:3%;
+    width:48%
+  
+  }
+  .addForm {
+    position:relative;
+    height: 20em;
+  
+  }
+  
+  .preview{
+    background-image: url('../Docs/girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    background-size: cover;
+  }
+  
+  .next{
+    width:43%;
+    position: absolute;
+    bottom:0;
+  }
+  
+  .reset{
+    width:43%;
+    position: absolute;
+    bottom:0;
+    right:8%;
+  }
 }

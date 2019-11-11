@@ -296,7 +296,7 @@ font-size:1em;
   }
 }
 
-@media (min-width:1025px) {
+@media (min-width:992px) {
   /* big landscape tablets, laptops, and desktops */
   /* PLAYER */
   .player {
@@ -331,7 +331,7 @@ font-size:1em;
   }
 }
 
-@media (min-width:1281px) {
+@media (min-width:1200px) {
   /* hi-res laptops and desktops */
   /* PLAYER */
   .player {
