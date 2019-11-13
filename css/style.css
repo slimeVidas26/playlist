@@ -39,6 +39,10 @@
   display:inline-block;
 } */
 
+nav{
+  background-color:#26a69a;
+}
+
 .search {
   cursor: pointer;
 }

@@ -4,17 +4,48 @@
     margin-bottom: 0px;
   } 
   
-  
   #modalAdd h4{
     border-bottom: 1px solid black;
     padding-bottom:10px;
   }
+
+ 
+
+  .modal-footer a:first-child{
+      color:black;
+      margin-top:10px;
+      cursor: pointer;
+      margin-left: 6px;
+
+  }
+
+  .modal-footer a:first-child > i{
+    cursor: pointer;
+}
+
+/* #modal-add-playlist-songs .input-field{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;   
+} */
+
+
+
+
+
+.preview{
+    background-image: url('../Docs/girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    background-size: cover;
+  }
+  
   
   @media (min-width:320px) {
   
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    
-    
+
     .modal {
       max-height: 60%;
       margin-top:10%;
@@ -29,14 +60,6 @@
     
     }
     
-    .preview{
-      background-image: url('../Docs/girl.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 20em;
-      background-size: cover;
-    }
-    
     .next{
       width:43%;
       position: absolute;
@@ -49,7 +72,6 @@
       position: absolute;
       bottom:0;
       right:1%;
-    
     }
   }
   @media (min-width:480px) {
@@ -60,37 +82,18 @@
       width:80%
   
     }
-    
-    .addForm {
-      position:relative;
-      height: 20em;
-      margin-bottom:20px;
-    
-    }
-    
-    .preview{
-      background-image: url('../Docs/girl.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 20em;
-      background-size: cover;
-    }
+
+
+.pre{
+  font-size: 10px;
+}
+     
     .next{
       width:43%;
       position: absolute;
       bottom:0;
       left:-1%;
-    }
-    
-    .reset{
-      width:43%;
-      position: absolute;
-      bottom:0;
-      right:1%;
-    
-    }
-    
-    
+    }  
   }
   @media (min-width:600px) {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -99,22 +102,15 @@
    .modal {
     max-height: 90%;
     margin-top:3%;
-    width:80%;
-    
-  
+    width:70%;
   }
+  .pre{
+    font-size: 10px;
+}
   .addForm {
     position:relative;
-    height: 15em;
+    height: 20em;
   
-  }
-  
-  .preview{
-    background-image: url('../Docs/girl.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 15em;
-    background-size: cover;
   }
   
   .next{
@@ -139,32 +135,10 @@
       width:55%
     
     }
-    .addForm {
-      position:relative;
-      height: 17em;
-    
-    }
-    
-    .preview{
-      background-image: url('../Docs/girl.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 17em;
-      background-size: cover;
-    }
-    
-    .next{
-      width:43%;
-      position: absolute;
-      bottom:0;
-    }
-    
-    .reset{
-      width:43%;
-      position: absolute;
-      bottom:0;
-      right:8%;
-    }
+
+    .pre{
+        font-size: 11px;
+    }  
   }
   @media (min-width:992px) {
      /* big landscape tablets, laptops, and desktops */
@@ -174,65 +148,21 @@
       width:48%
     
     }
-    .addForm {
-      position:relative;
-      height: 18em;
-    
+    .pre{
+        font-size: 12px;
     }
-    
-    .preview{
-      background-image: url('../Docs/girl.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 18em;
-      background-size: cover;
-    }
-    
-    .next{
-      width:43%;
-      position: absolute;
-      bottom:0;
-    }
-    
-    .reset{
-      width:43%;
-      position: absolute;
-      bottom:0;
-      right:8%;
-    }
+
   }
   @media (min-width:1200px) {
      /* hi-res laptops and desktops */
      .modal {
-      max-height: 90%;
+      max-height: 70%;
       margin-top:3%;
       width:48%
     
     }
-    .addForm {
-      position:relative;
-      height: 20em;
-    
-    }
-    
-    .preview{
-      background-image: url('../Docs/girl.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 20em;
-      background-size: cover;
-    }
-    
-    .next{
-      width:43%;
-      position: absolute;
-      bottom:0;
-    }
-    
-    .reset{
-      width:43%;
-      position: absolute;
-      bottom:0;
-      right:8%;
-    }
+
+    .pre{
+        font-size: 14px;
+    }  
   }
