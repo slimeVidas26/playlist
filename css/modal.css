@@ -23,6 +23,16 @@
     cursor: pointer;
 }
 
+.modal-footer .count {
+    color: black;
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+.modal-footer .count span {
+    font-weight: bold;
+}
+
 /* #modal-add-playlist-songs .input-field{
     position: relative;
     margin-top: 0;
