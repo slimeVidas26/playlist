@@ -17,13 +17,34 @@
 }
 
 .mainPlaylist .playlist .center{
+  position:relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top:40px;
   margin-bottom:1em;
-  width: 83%;
+   width: 83%; 
   border-radius:50% ;
+
+  background-image: url('../Docs/albums/arctic Monkey.jpg');
+  background-repeat: no-repeat;
+   height: 254px;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.arcText { 
+
+  text-align:center;
+  position:absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  font-family: 'Righteous', cursive;
+  font-size:1.4em;
+  width:90%;
+  
 }
 
 .mainPlaylist .playlist .playBtn{

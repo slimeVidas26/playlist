@@ -209,9 +209,10 @@
       <!--   Icon Section   -->
       <div class="row mainPlaylist">
         <div class="col s12 m6 l4 xl3 playlist">
-          
-        <img src="Docs/albums/arctic Monkey.jpg"  alt="" class="center">
+        <img  alt="" class="center">
           <!-- <img src="Docs/grid-item1.png"  alt="" class="center"> -->
+          <div class="arcText">Tranquility Base Hotel Casino</div>
+
           <i class="material-icons playBtn">
               play_circle_outline
               </i>
@@ -284,9 +285,12 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/appendToForm.js"></script>
+  <script src="js/Arctext/js/jquery.arctext.js"></script>
+
+
 
   <script>
-      $( "div.demo" ).scrollTop( 800 );
+     $('.arcText').arctext({radius: 100})
       </script>
 
   </body>
